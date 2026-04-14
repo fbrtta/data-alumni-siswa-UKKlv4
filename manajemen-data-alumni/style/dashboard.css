@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background:#f0f4f8;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+
+header{
+    background:#2c3e50;
+    padding:15px 50px;
+    color:white;
+}
+
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:auto;
+}
+
+.nav-container h2{
+    font-size:20px;
+    letter-spacing:0.5px;
+}
+
+
+.logout{
+    background:#ff5e5e;
+    color:white;
+    text-decoration:none;
+    padding:8px 20px;
+    border-radius:5px;
+    font-size:14px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.logout:hover{
+    background:#e74c3c;
+}
+
+
+.container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+
+.card{
+    background:white;
+    width:100%;
+    max-width:1100px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.card-header h3{
+    color:#345e9a;
+    font-size:22px;
+}
+
+
+.tambah{
+    background:#345e9a;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.tambah:hover{
+    background:#2c4d7d;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+
+th{
+    background:#345e9a;
+    color:white;
+    text-align:left;
+    padding:14px;
+    font-size:14px;
+}
+
+
+td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+    color:#333;
+}
+
+
+tr:nth-child(even){
+    background:#f9f9f9;
+}
+
+tr:hover{
+    background:#f1f5f9;
+}
+
+
+.edit,
+.hapus{
+    padding:6px 14px;
+    text-decoration:none;
+    border-radius:4px;
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    margin-right:5px;
+    display:inline-block;
+}
+
+
+.edit{
+    background:#3498db;
+}
+
+.edit:hover{
+    background:#2980b9;
+}
+
+
+.hapus{
+    background:#ff5e5e;
+}
+
+.hapus:hover{
+    background:#e74c3c;
+}
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#345e9a;
+    color:white;
+    font-size:14px;
+    margin-top:auto;
+}
